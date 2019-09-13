@@ -1,0 +1,21 @@
+A flask app to accept a string input and redirects users to the most matched page within the scraped data.
+
+Procedure:
+
+1-Run all the scraping scripts in PyCharm
+	.Install Scrapy 
+	.Install mysql-connector-python
+	.Install other packages if they are not already installed
+	.In the Pipeline.py
+		Change database password
+		DBname to  database name
+		TBname to table name everywhere
+	.Run the script inside the spiders directory
+	Note-Use same database for all the scraping scripts
+
+2-Set-up flask in PyCharm
+	Copy the app.py contents from Flask folder to the new flask environment
+	Add all the templates files to the templates folder of the flask project
+	Change the Password, DBname, TBname to the details of the database containing scraped information.
+
+3.Run the flask app.py
